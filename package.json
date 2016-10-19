@@ -13,7 +13,7 @@
     "url": "https://github.com/saurshaz/async-redux-router-rss-viewer/issues"
   },
   "scripts": {
-    "build": "npm run clean && webpack",
+    "build": "npm run clean && npm run lint && webpack",
     "build:i18n": "rimraf _translations && BABEL_ENV=i18n babel --quiet lib > /dev/null",
     "build:i18n:langs": "npm run build:i18n && babel-node scripts/i18nToXliff.js",
     "clean": "rimraf dist",
