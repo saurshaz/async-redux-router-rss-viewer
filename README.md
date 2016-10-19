@@ -34,6 +34,7 @@ $ npm start
 go to http://localhost:3001/feed/
 ```
 
+Look here for online version https://saurshaz.github.io/async-redux-router-rss-viewer/#/?_k=qfoiqj/feed
 
 ## TODOs
 - testing to be added 
